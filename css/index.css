@@ -1,10 +1,10 @@
 .header{
-    height: 120px;
-    padding: 20px 30px;
+    height: 100px;
+    padding: 0 30px;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
- 
+    align-items: center;
 }
 .first-page,.second-page{
     height: 100vh;
@@ -17,11 +17,12 @@
 }
 .main-box{
     height: calc(100vh-120px);
-    padding: 0 90px;
+    padding: 0 50px;
 }
 .avtor-box{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 .title{
     flex: 1;
@@ -48,6 +49,7 @@
 }
 .image-list-li{
     /* flex: 1; */
+    padding: 0 10px;
 }
 .small-image{
     width: 100%;
@@ -75,4 +77,9 @@
     position: absolute;
     right: -32px;
     top: 100px
+}
+.scroll{
+    font-weight: 800;
+    padding: 30px 60px;
+
 }
